@@ -10,40 +10,16 @@ body {
 
 header {
     background-color: black;
+    height: 30px;
+}
+
+.barra-superior {
+    display: inline-block;
     position: relative;
-}
-
-.botoes-acao-header {    
-    background-color: rgb(0, 0, 0);
-    height: 25px;            
-}
-
-.botoes-laterais {
-    position: absolute;     
-    background-color: black;
 }
 
 .links-uteis {
-    position: relative;
-    left: 69%;
-    color: gray;
-    text-decoration: none;
-    font-size: 0.8rem;
-}
-
-.logo-taco {
-    width: 95px;
-}
-
-nav {
-    background-color: rgb(255, 255, 255);
     position: absolute;
-    width: 100%;
-    right: -4%;    
-}   
-
-
-a {    
-    color: black;
-    text-decoration: none;
+    background-color: red;    
 }
+
